@@ -4,12 +4,12 @@
 }
 
 body {
-  position: absolute;
-  top: 200px;
   background: lightgrey;
   display: flex;
   height: 800px;
   width: 1400px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* *De vita korten på barn vuxen gammal */
