@@ -5,43 +5,59 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1em;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
+  font-weight: 700;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 4rem;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: white;
+}
+.text-small {
+  font-size: 1rem;
 }
 .container {
-  width: 1400px;
+  max-width: 1320px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 380px 380px 60px;
+  grid-template-rows: 350px 350px 80px;
   grid-template-areas: "top-left top-right" "bottom-left bottom-right" "nav nav";
 }
 
 .top-left {
-  background: lightblue;
+  background: #c7ddea;
   grid-area: top-left;
-  padding: 4rem 10rem 16rem 10rem;
+  padding: 3rem 8rem 16rem 10rem;
 }
 .top-right {
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: lightsalmon;
+  background: #f17849;
   grid-area: top-right;
 }
 .bottom-left {
-  background: lightblue;
+  background: #c7ddea;
   grid-area: bottom-left;
-  padding: 4rem 10rem 16rem 10rem;
+  padding: 3rem 8rem 16rem 10rem;
 }
 .bottom-right {
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(243, 195, 62);
+  background: #fab131;
   grid-area: bottom-right;
 }
 .white {
@@ -55,25 +71,42 @@ body {
   padding-right: 2rem;
 }
 .img-family {
-  height: 400px;
+  height: 380px;
 }
 .info-text {
   grid-area: top-left;
 }
 
 .button-join {
+  position: relative;
   grid-area: bottom-left;
-  color: black;
   background-color: white;
-  padding: 18px 60px;
+  font-size: 1rem;
+  padding: 14px 45px;
   border: 1px solid #ffffff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 50px;
+  border-radius: 25px;
   display: inline-block;
   cursor: pointer;
-  text-decoration: none;
 }
 .button-join:active {
   position: relative;
   top: 1px;
+}
+.button-join:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+.nav-bar {
+  grid-area: nav;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 240px 0 240px;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+a:hover {
+  color: rgba(0, 0, 0, 1);
 }
