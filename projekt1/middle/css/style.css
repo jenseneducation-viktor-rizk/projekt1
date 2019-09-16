@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -7,7 +6,7 @@
 p {
   color: rgba(0, 0, 0, 0.7);
   font-weight: 700;
-  font-size: 1.25em;
+  font-size: 1.1rem;
 }
 
 body {
@@ -19,15 +18,15 @@ body {
 
 .middle-container {
   display: grid;
-  max-width: 1400px;
-  grid-template-columns: repeat(14, 100px);
+  width: 1200px;
+  grid-template-columns: repeat(14, 1fr);
   grid-template-rows: repeat(15, 120px);
 }
 
 .middle {
   display: flex;
   flex-direction: column;
-  padding: 120px;
+  padding: 20%;
 }
 
 .middle-flex-left {
@@ -52,25 +51,26 @@ body {
 
 h1 {
   color: white;
-  font-size: 3.9em;
+  font-size: 3rem;
   line-height: 60px;
-  margin-bottom: 80px;
+  line-height: 50px;
+  margin-bottom: 15%;
 }
 
 h1.about-us {
-  margin-top: 90px;
-  margin-bottom: 55px;
+  margin-top: 30%;
+  margin-bottom: 10%;
 }
 
 p.middle-text {
-  width: 380px;
+  width: 90%;
   line-height: 30px;
 }
 
 p.about-us {
   text-align: center;
   line-height: 25px;
-  width: 600px;
+  width: 80%;
 }
 
 button {
@@ -102,15 +102,15 @@ button:focus {
 }
 
 .card-child {
-  grid-column-start: 2;
+  grid-column: 2/6;
 }
 
 .card-adult {
-  grid-column-start: 6;
+  grid-column: 6/10;
 }
 
 .card-old {
-  grid-column-start: 10;
+  grid-column: 10/14;
 }
 
 /* *De vita korten på barn vuxen gammal */
@@ -119,8 +119,8 @@ button:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 370px;
-  height: 470px;
+  width: 90%;
+  height: 410px;
   background: white;
   border-radius: 10px;
   margin: 20px;
@@ -131,8 +131,8 @@ button:focus {
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  width: 340px;
-  height: 230px;
+  width: 90%;
+  height: 190px;
   padding-top: 15px;
   position: relative;
   top: -45px;
@@ -155,7 +155,7 @@ button:focus {
 
 /* *Bilden på barnet */
 img.child-picture {
-  padding-left: 30px;
+  padding-left: 20px;
   height: 120%;
 }
 
@@ -168,14 +168,14 @@ img.card-picture {
 h3.card-title {
   position: relative;
   top: -10px;
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 /* *Text på korten */
 p.card-text {
-  font-size: 1.1em;
+  font-size: 0.9rem;
   padding: 0px 28px 0px 28px;
   text-align: center;
   font-weight: bold;
