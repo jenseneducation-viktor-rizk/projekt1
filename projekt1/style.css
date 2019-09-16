@@ -16,9 +16,11 @@ body {
 p {
   color: rgba(0, 0, 0, 0.7);
   font-weight: 700;
+
   font-size: 1.2rem;
   letter-spacing: -0.4px;
   line-height: 2rem;
+
   margin: 0;
 }
 
@@ -40,14 +42,19 @@ h1 {
   font-size: 3rem;
   line-height: 3rem;
   color: white;
+
+  margin-bottom: 50px;
+
   margin-top: 0;
 }
 h1.black {
   color: black;
+
 }
 h2 {
   font-size: 2rem;
   color: white;
+  margin: 0;
 }
 
 .container {
@@ -175,11 +182,6 @@ a:hover {
   align-items: center;
 }
 
-h1.about-us {
-  margin-top: 30%;
-  margin-bottom: 10%;
-}
-
 p.middle-text {
   width: 300px;
 }
@@ -187,7 +189,8 @@ p.middle-text {
 p.about-us {
   text-align: center;
 
-  width: 80%;
+  width: 650px;
+
 }
 
 .card-child {
@@ -207,12 +210,14 @@ p.about-us {
   grid-row-start: 6;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: 300px;
-  height: 410px;
+  width: 270px;
+  height: 420px;
   background: white;
   border-radius: 10px;
   margin: 20px;
+  padding: 0px 20px 0 20px;
 }
 
 /* *Rutan med bild i */
@@ -220,8 +225,8 @@ p.about-us {
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  width: 90%;
-  height: 190px;
+  width: 270px;
+  height: 200px;
   padding-top: 15px;
   position: relative;
   top: -45px;
@@ -256,7 +261,8 @@ img.card-picture {
 /* *Rubrik på korten */
 h3.card-title {
   position: relative;
-  top: -10px;
+  top: -20px;
+  margin: 0;
   font-size: 1.4em;
   font-weight: bold;
   padding-bottom: 5px;
