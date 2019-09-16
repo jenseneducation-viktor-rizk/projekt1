@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.middle-container {
+  display: grid;
+  width: 1200px;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(15, 120px);
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  padding: 20%;
+}
+
+.middle-flex-left {
+  grid-column: 1/8;
+  grid-row: 1/8;
+  background: #aaa09e;
+}
+
+.middle-flex-right {
+  grid-column: 8/15;
+  grid-row: 1/8;
+  background: #aaa09e;
+}
+
+.middle-flex2 {
+  background: #fab131;
+  grid-column: 1/15;
+  grid-row: 8/16;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  line-height: 60px;
+  line-height: 50px;
+  margin-bottom: 15%;
+}
+
+h1.about-us {
+  margin-top: 30%;
+  margin-bottom: 10%;
+}
+
+p.middle-text {
+  width: 90%;
+  line-height: 30px;
+}
+
+p.about-us {
+  text-align: center;
+  line-height: 25px;
+  width: 80%;
+}
+
+button {
+  margin-right: auto;
+  padding: 20px 60px 20px 60px;
+  border: none;
+  background-color: white;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: bold;
+  box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 2px 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+  outline: 0;
+  border: 0;
+  box-shadow: 0 5px 5px rgba(3, 2, 2, 0.7);
+  transform: translate(5px);
+}
+
+button:focus {
+  outline: 0;
+}
+
+.card-child {
+  grid-column: 2/6;
+}
+
+.card-adult {
+  grid-column: 6/10;
+}
+
+.card-old {
+  grid-column: 10/14;
+}
+
+/* *De vita korten på barn vuxen gammal */
+.card {
+  grid-row-start: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 410px;
+  background: white;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* *Rutan med bild i */
+.card-background {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  width: 90%;
+  height: 190px;
+  padding-top: 15px;
+  position: relative;
+  top: -45px;
+}
+
+/* *Bakgrund till bilden på barnet*/
+.blue-background {
+  background: #c7ddea;
+}
+
+/* *Bakgrund till bilden på vuxen*/
+.yellow-background {
+  background: #fab131;
+}
+
+/* *Bakgrund till bilden på gubben*/
+.red-background {
+  background: #f17849;
+}
+
+/* *Bilden på barnet */
+img.child-picture {
+  padding-left: 20px;
+  height: 120%;
+}
+
+/**Andra bilder i korten */
+img.card-picture {
+  height: 320%;
+}
+
+/* *Rubrik på korten */
+h3.card-title {
+  position: relative;
+  top: -10px;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+/* *Text på korten */
+p.card-text {
+  font-size: 0.9rem;
+  padding: 0px 28px 0px 28px;
+  text-align: center;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 25px;
+}
