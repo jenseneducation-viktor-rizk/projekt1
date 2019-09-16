@@ -1,19 +1,19 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   background-color: #837c7b;
   height: 2000px;
-  width: 100%;
+  width: 1200px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (1fr)[20];
-      grid-template-rows: repeat(20, 1fr);
-  -ms-grid-columns: (1fr)[10];
-      grid-template-columns: repeat(10, 1fr);
+  -ms-grid-rows: (1fr) [20];
+  grid-template-rows: repeat(20, 1fr);
+  -ms-grid-columns: (1fr) [10];
+  grid-template-columns: repeat(10, 1fr);
 }
 
 header {
@@ -21,13 +21,13 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #c7ddea;
   -ms-grid-row: 1;
   -ms-grid-row-span: 4;
@@ -64,13 +64,13 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 nav li {
@@ -81,7 +81,7 @@ nav a {
   text-decoration: none;
   color: #837c7b;
   font-size: 1.5rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 nav a:hover {
@@ -100,11 +100,11 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 main h1 {
@@ -125,14 +125,14 @@ main .form {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 45%;
 }
 
 main .form h4 {
   margin: 0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #ebebeb;
   font-size: 1.5rem;
 }
@@ -143,7 +143,7 @@ main .form .email {
   height: 60px;
   border: 0;
   margin-bottom: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.3rem;
 }
 
@@ -152,7 +152,7 @@ main .form .text {
   border-radius: 5px;
   width: 500px;
   height: 200px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.3rem;
 }
 
@@ -178,11 +178,11 @@ main .form button {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-image: url(/middle/pics/san-francisco-california-usa-dark-map-jurq-studio.jpg);
   background-size: cover;
   background-blend-mode: multiply;
@@ -204,7 +204,7 @@ main .form button {
 }
 
 .location .place h3 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.1rem;
 }
 /*# sourceMappingURL=stylesheet.css.map */
