@@ -32,6 +32,7 @@ h1 {
   font-size: 3rem;
   line-height: 3rem;
   color: white;
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -164,11 +165,6 @@ a:hover {
   align-items: center;
 }
 
-h1.about-us {
-  margin-top: 30%;
-  margin-bottom: 10%;
-}
-
 p.middle-text {
   width: 300px;
   line-height: 30px;
@@ -199,11 +195,12 @@ p.about-us {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 300px;
-  height: 410px;
+  width: 270px;
+  height: 420px;
   background: white;
   border-radius: 10px;
   margin: 20px;
+  padding: 0px 20px 0 20px;
 }
 
 /* *Rutan med bild i */
@@ -211,8 +208,8 @@ p.about-us {
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  width: 90%;
-  height: 190px;
+  width: 270px;
+  height: 200px;
   padding-top: 15px;
   position: relative;
   top: -45px;
