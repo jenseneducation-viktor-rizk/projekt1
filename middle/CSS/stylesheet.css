@@ -1,0 +1,210 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #837c7b;
+  height: 2000px;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[20];
+      grid-template-rows: repeat(20, 1fr);
+  -ms-grid-columns: (1fr)[10];
+      grid-template-columns: repeat(10, 1fr);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #c7ddea;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  grid-row: 1 / 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1 / span 10;
+}
+
+header img {
+  height: 300px;
+  margin-top: auto;
+}
+
+header h1 {
+  margin-top: auto;
+  font-size: 5rem;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav {
+  background-color: white;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  grid-row: 5 / 6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1 / span 10;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #837c7b;
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+nav a:hover {
+  color: black;
+}
+
+main {
+  background-color: #837c7b;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 7;
+  grid-row: 6/ 13;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1 / span 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main h1 {
+  margin-right: auto;
+  margin-left: 100px;
+  margin-bottom: auto;
+  margin-top: 15rem;
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #ebebeb;
+}
+
+main .form {
+  margin-left: auto;
+  margin-right: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+}
+
+main .form h4 {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ebebeb;
+  font-size: 1.5rem;
+}
+
+main .form .email {
+  border-radius: 5px;
+  width: 500px;
+  height: 60px;
+  border: 0;
+  margin-bottom: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.3rem;
+}
+
+main .form .text {
+  border: 0;
+  border-radius: 5px;
+  width: 500px;
+  height: 200px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.3rem;
+}
+
+main .form button {
+  border: 0;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: 105px;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.location {
+  background-color: red;
+  -ms-grid-row: 13;
+  -ms-grid-row-span: 5;
+  grid-row: 13 / 18;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 10;
+  grid-column: 1 / span 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(/middle/pics/san-francisco-california-usa-dark-map-jurq-studio.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.671);
+}
+
+.location .place {
+  margin-right: auto;
+  margin-left: 50px;
+  width: 400px;
+  height: 250px;
+  background-color: #fab131;
+  padding-left: 20px;
+}
+
+.location .place h1 {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.location .place h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.1rem;
+}
+/*# sourceMappingURL=stylesheet.css.map */
