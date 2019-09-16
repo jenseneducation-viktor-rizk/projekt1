@@ -54,7 +54,7 @@ h2 {
 .top-left {
   background: #c7ddea;
   grid-area: top-left;
-  padding: 3rem 8rem 16rem 10rem;
+  padding: 40px 120px 40px 120px;
 }
 .top-right {
   flex-direction: column;
