@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  margin: auto;
+  width: 1000px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #ebebeb;
+}
+
+.tutcontainer {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 700px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2] auto auto;
+      grid-template-rows: repeat(2, 1fr) auto auto;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.itembox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.itembox h2 {
+  font-size: 2rem;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.itembox h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.itembox p {
+  margin-bottom: auto;
+  margin-top: -20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.tutitembox1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  background-color: #c7ddea;
+}
+
+.tutitembox2 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  background-color: white;
+}
+
+.tutitembox3 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  background-color: #ebebeb;
+}
+
+.tutitembox4 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  background-color: white;
+}
+
+.tutitembox5 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  background-color: #f17849;
+}
+
+.tutitembox6 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  background-color: white;
+}
+
+.top {
+  height: 40px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  border: none;
+  background-color: #ebebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.top .topbtn {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.top .topbtn h1 {
+  margin: 0;
+  padding-top: 0;
+}
+
+.topbtn {
+  border: none;
+  background-color: #ebebeb;
+}
+
+.topbtn a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+}
+
+footer {
+  background-color: #aaa09e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+}
+/*# sourceMappingURL=stylesheetbottom.css.map */
