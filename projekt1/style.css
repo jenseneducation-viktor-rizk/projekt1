@@ -32,7 +32,9 @@ h1 {
   line-height: 3rem;
   color: white;
 }
-
+h1.black {
+  color: black;
+}
 h2 {
   font-size: 2rem;
   color: white;
