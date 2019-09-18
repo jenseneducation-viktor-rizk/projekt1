@@ -6,7 +6,7 @@ body {
   margin: 0;
   background-color: #837c7b;
   height: 2000px;
-  width: 100%;
+  width: 1200px;
   display: grid;
   grid-template-rows: repeat(20, 1fr);
   grid-template-columns: repeat(10, 1fr);

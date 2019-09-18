@@ -64,6 +64,27 @@ a:hover {
   color: rgba(0, 0, 0, 1);
 }
 
+/* Knapp */
+
+.button-join {
+  position: relative;
+  justify-content: center;
+  background-color: white;
+  padding: 12px 40px;
+  border: 1px solid #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  display: inline-block;
+  cursor: pointer;
+}
+.button-join:active {
+  position: relative;
+  top: 1px;
+}
+.button-join:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
 /* *Bakgrundsfärger*/
 .blue-background {
   background: #c7ddea;
@@ -101,6 +122,16 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* !NAVBAR */
+
+.nav-bar {
+  grid-area: nav;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 240px 0 240px;
 }
 
 /*! TOP */
@@ -141,32 +172,6 @@ a:hover {
 }
 .info-text {
   grid-area: top-left;
-}
-
-.button-join {
-  position: relative;
-  justify-content: center;
-  background-color: white;
-  padding: 12px 40px;
-  border: 1px solid #ffffff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 25px;
-  display: inline-block;
-  cursor: pointer;
-}
-.button-join:active {
-  position: relative;
-  top: 1px;
-}
-.button-join:hover {
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-}
-.nav-bar {
-  grid-area: nav;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0 240px 0 240px;
 }
 
 /*! MIDDLE */
@@ -368,4 +373,11 @@ h3.card-title {
 
 footer {
   padding-top: 50px;
+}
+
+/* ! Contact */
+
+.contact-img {
+  height: 300px;
+  margin-top: auto;
 }
