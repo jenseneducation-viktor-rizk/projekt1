@@ -7,35 +7,39 @@
     <title>Contacts</title>
     <link rel="stylesheet" href="/projekt1/css/style.css" />
   </head>
-  <body>
-    <div class="container-contact flex-column-center">
-      <header>
-        <h1>Oh hello there!</h1>
+  <body class="lightgrey-background">
+    <div class="container-contact">
+      <div class="contact-top blue-background">
+        <div class="push-right"></div>
+        <h1 class="black">Oh hello there!</h1>
         <img src="/projekt1/images/child.png" class="contact-img" />
-      </header>
-      <div class="nav-bar font-small">
+      </div>
+      <div class="nav-bar-contact font-small">
         <a href="index.html">Home</a>
         <a href="#offer">Our offer</a>
         <a href="#about">About us</a>
-        <a href="/contacts/contacts.html">Contact</a>
+        <a href="contacts.html">Contact</a>
       </div>
       <main>
-        <h1>What's on your mind?</h1>
+        <h1 class="on-your-mind">What's on your mind?</h1>
         <div class="form">
-          <h4>Your email</h4>
+          <h4><span class="white-font">Your email</span></h4>
           <input class="email" type="email" valid autocomplete="email" />
-          <h4>Your message</h4>
+          <h4><span class="white-font">Your message</span></h4>
           <input class="text" type="text" />
-          <a href="index.html" class="button-join font-small">SEND MESSAGE</a>
+          <a href="contacts.html" class="button-join font-small button-contact"
+            >SEND MESSAGE</a
+          >
         </div>
       </main>
       <div class="location">
         <div class="place">
-          <h1>Come visit us!</h1>
+          <h1 class="h1-bottom">Come visit us!</h1>
           <h3>2219 Griffin Street</h3>
           <h3>San Francisco</h3>
         </div>
       </div>
+      <div class="contact-bottom grey-background"></div>
     </div>
   </body>
 </html>
