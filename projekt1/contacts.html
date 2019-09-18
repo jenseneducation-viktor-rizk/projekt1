@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Contacts</title>
     <link rel="stylesheet" href="/projekt1/css/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap");
+    </style>
   </head>
   <body class="lightgrey-background">
     <div class="container-contact">
@@ -26,7 +29,12 @@
           <h4><span class="white-font">Your email</span></h4>
           <input class="email" type="email" valid autocomplete="email" />
           <h4><span class="white-font">Your message</span></h4>
-          <input class="text" type="text" />
+          <textarea
+            name="user-message"
+            id="msg"
+            rows="10"
+            class="text"
+          ></textarea>
           <a href="contacts.html" class="button-join font-small button-contact"
             >SEND MESSAGE</a
           >
@@ -35,9 +43,17 @@
       <div class="location">
         <div class="place">
           <h1 class="h1-bottom">Come visit us!</h1>
-          <h3>2219 Griffin Street</h3>
-          <h3>San Francisco</h3>
+          <h3>Isafjordsgatan 32</h3>
+          <h3>Kista</h3>
         </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2030.6637839301886!2d17.944544451717654!3d59.405321711879346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9eed11226743%3A0x2e84558ca7a8f5c0!2sIsafjordsgatan%2032%2C%20164%2040%20Kista!5e0!3m2!1ssv!2sse!4v1568818340956!5m2!1ssv!2sse"
+          width="100%"
+          height="700px"
+          frameborder="0"
+          style="border:0;"
+          allowfullscreen=""
+        ></iframe>
       </div>
       <div class="contact-bottom grey-background"></div>
     </div>
