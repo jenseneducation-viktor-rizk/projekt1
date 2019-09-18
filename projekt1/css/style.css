@@ -56,13 +56,13 @@ h2 {
 .container {
   display: grid;
   grid-template-areas: "top-container" "middle-container" "bottom-container";
+  max-width: 1200px;
 }
 
 /*! TOP */
 
 .top-container {
   grid-area: top-container;
-  max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 350px 350px 60px;
@@ -74,6 +74,7 @@ h2 {
   grid-area: top-left;
   padding: 40px 120px 40px 120px;
 }
+/* TODO gör en egen class för flex som är centrerade */
 .top-right {
   flex-direction: column;
   display: flex;
@@ -116,8 +117,7 @@ h2 {
   position: relative;
   justify-content: center;
   background-color: white;
-  font-size: 1rem;
-  padding: 14px 45px;
+  padding: 12px 40px;
   border: 1px solid #ffffff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   border-radius: 25px;
@@ -152,9 +152,8 @@ a:hover {
 .middle-container {
   grid-area: middle-container;
   display: grid;
-  max-width: 1200px;
   grid-template-columns: repeat(14, 1fr);
-  grid-template-rows: repeat(15, 120px);
+  grid-template-rows: repeat(15, 115px);
 }
 
 /* *Gemensamma regler för de tre flex-rutorna */
@@ -283,7 +282,6 @@ h3.card-title {
 
 .bottom-container {
   grid-area: bottom-container;
-  max-width: 1200px;
   height: 800px;
   display: -ms-grid;
   display: grid;
@@ -418,20 +416,11 @@ h3.card-title {
   background-color: #ebebeb;
 }
 
-.topbtn a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.5rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: 500;
-}
-
 .itembox h1 {
   margin-bottom: 0;
 }
 
 footer {
-  background-color: #aaa09e;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
