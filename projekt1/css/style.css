@@ -8,8 +8,6 @@ body {
   display: flex;
   justify-content: center;
   box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  background-color: #ebebeb;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -61,6 +59,28 @@ a:hover {
   color: rgba(0, 0, 0, 1);
 }
 
+/* *Bakgrundsfärger*/
+.blue-background {
+  background: #c7ddea;
+}
+
+.yellow-background {
+  background: #fab131;
+}
+
+.red-background {
+  background: #f17849;
+}
+.grey-background {
+  background: #aaa09e;
+}
+.lightgrey-background {
+  background: #ebebeb;
+}
+.white-background {
+  background: white;
+}
+
 .container {
   display: grid;
   grid-template-areas: "top-container" "middle-container" "bottom-container";
@@ -78,7 +98,6 @@ a:hover {
 }
 
 .top-left {
-  background: #c7ddea;
   grid-area: top-left;
   padding: 40px 120px 40px 120px;
 }
@@ -88,11 +107,9 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f17849;
   grid-area: top-right;
 }
 .bottom-left {
-  background: #c7ddea;
   grid-area: bottom-left;
   padding: 40px 120px 40px 120px;
 }
@@ -101,7 +118,6 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fab131;
   grid-area: bottom-right;
 }
 .white {
@@ -167,18 +183,15 @@ a:hover {
 .middle-flex-left {
   grid-column: 1/8;
   grid-row: 1/8;
-  background: #aaa09e;
   align-items: flex-start;
 }
 
 .middle-flex-right {
   grid-column: 8/15;
   grid-row: 1/8;
-  background: #aaa09e;
 }
 
 .middle-flex-bottom {
-  background: #fab131;
   grid-column: 1/15;
   grid-row: 8/16;
   justify-content: center;
@@ -221,7 +234,6 @@ p.about-us {
   align-items: center;
   width: 270px;
   height: 420px;
-  background: white;
   border-radius: 10px;
   margin: 17px;
   padding: 0px 20px 0 20px;
@@ -237,19 +249,6 @@ p.about-us {
   padding-top: 15px;
   position: relative;
   top: -45px;
-}
-
-/* *Bakgrundsfärger*/
-.blue-background {
-  background: #c7ddea;
-}
-
-.yellow-background {
-  background: #fab131;
-}
-
-.red-background {
-  background: #f17849;
 }
 
 /* *Bilden på barnet */
@@ -291,18 +290,9 @@ h3.card-title {
 }
 
 .itembox {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
@@ -327,78 +317,40 @@ h3.card-title {
 }
 
 .tutitembox1 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
   grid-row: 1/2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
   grid-column: 1/2;
-  background-color: #c7ddea;
 }
 
 .tutitembox2 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
   grid-row: 1/2;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
   grid-column: 2/3;
-  background-color: white;
 }
 
 .tutitembox3 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
   grid-row: 1/2;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
   grid-column: 3/4;
-  background-color: #ebebeb;
 }
 
 .tutitembox4 {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
   grid-row: 2/3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
   grid-column: 1/2;
-  background-color: white;
 }
 
 .tutitembox5 {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
   grid-row: 2/3;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
   grid-column: 2/3;
-  background-color: #f17849;
 }
 
 .tutitembox6 {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
   grid-row: 2/3;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
   grid-column: 3/4;
-  background-color: white;
 }
 
 .top {
   height: 40px;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
   grid-column: 1/4;
   border: none;
-  background-color: #ebebeb;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -422,11 +374,7 @@ h3.card-title {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   padding-top: 50px;
 }
